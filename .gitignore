@@ -1,3 +1,33 @@
-# Compilation outputs
-main
-*.o
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE settings (optional but recommended)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
