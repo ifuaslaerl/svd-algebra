@@ -42,7 +42,7 @@ def main():
             # (Approximated logic from report)
             diff_norm = (np.sum(S[k:]**2))**0.5
             
-            if diff_norm <= 1e-4 * full_norm: # Threshold from report
+            if diff_norm <= 1e-2 * full_norm: # Threshold from report
                 print(f"Converged at k={k}")
                 target_k = k
                 break
